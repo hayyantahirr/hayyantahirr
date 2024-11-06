@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* *{
+  border: 2px solid red
+} */
 /* -------------------------- */
 /* * typography */
 /* -------------------------- */
@@ -16,7 +18,11 @@
   @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
 }
 .headline-2 {
-  @apply text-3xl lg:leading-tight font-semibold lg:text-4xl ;
+  @apply text-3xl lg:leading-tight font-semibold lg:text-4xl;
+}
+
+.title-1 {
+  @apply text-[22px] font-normal;
 }
 /* -------------------------- */
 /* * Utilities */

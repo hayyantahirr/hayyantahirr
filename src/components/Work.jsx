@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCards from "./ProjectCards.jsx";
 
 function Work() {
   const works = [
@@ -14,12 +15,12 @@ function Work() {
       tags: ["API", "SPA"],
       projectLink: "https://pixstock-official.vercel.app/",
     },
-    {
-      imgSrc: "/images/project-3.jpg",
-      title: "Recipe app",
-      tags: ["Development", "API"],
-      projectLink: "",
-    },
+    // {
+    //   imgSrc: "/images/project-3.jpg",
+    //   title: "Recipe app",
+    //   tags: ["Development", "API"],
+    //   projectLink: "",
+    // },
     {
       imgSrc: "/images/project-4.jpg",
       title: "Real state website",
@@ -43,12 +44,17 @@ function Work() {
     <>
       <section id="work" className="section">
         <div className="container">
-          {" "}
-          <h2 className="headline-2">My portfolio highlights</h2>
-          <div className="">
-            {works.map((items, key) => {
-              "projectCard";
-            })}
+          <h2 className="headline-2 mb-8">My portfolio highlights</h2>
+          <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_m)]">
+            {works.map((item, key) => (
+              <ProjectCards
+                imgSrc={item.imgSrc}
+                title={item.title}
+                tags={item.tags}
+                projectLink={item.projectLink}
+                key={key}
+              />
+            ))}
           </div>
         </div>
       </section>
