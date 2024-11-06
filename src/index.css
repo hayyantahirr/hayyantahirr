@@ -5,7 +5,8 @@
 /* -------------------------- */
 /* * typography */
 /* -------------------------- */
-.headline-1 {
+.headline-1,
+.headline-2 {
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text;
@@ -14,7 +15,9 @@
 .headline-1 {
   @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
 }
-
+.headline-2 {
+  @apply text-3xl lg:leading-tight font-semibold lg:text-4xl ;
+}
 /* -------------------------- */
 /* * Utilities */
 /* -------------------------- */
