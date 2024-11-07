@@ -1,4 +1,5 @@
 import React from "react";
+import ReviewCard from "./ReviewCard";
 
 function Reviews() {
   const reviews = [
@@ -47,10 +48,20 @@ function Reviews() {
   ];
   return (
     <>
-      <section className="section" id="reviews">
+      <section className="section overflow-hidden" id="reviews">
         <div className="container">
-            <h2 className="headline-2">What our customers say</h2>
-            <div className="">{reviews.map((item,key)=>"reviewCards")}</div>
+          <h2 className="headline-2 mb-8 ">What our customers say</h2>
+          <div className="flex items-stretch gap-3 w-fit">
+            {reviews.map((item, key) => (
+              <ReviewCard
+                content={item.content}
+                name={item.name}
+                imgSrc={item.imgSrc}
+                company={item.company}
+                key={key}
+              />
+            ))}
+          </div>
         </div>
       </section>
     </>
