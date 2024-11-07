@@ -37,7 +37,7 @@ function About() {
                       <span className="text-2xl font-bold md:text-4xl ">
                         {item.number}
                       </span>
-                      <span className="text-sky-400 font-semibold md:text-3xl">
+                      <span className="text-red-400 font-semibold md:text-3xl">
                         +
                       </span>
                     </div>

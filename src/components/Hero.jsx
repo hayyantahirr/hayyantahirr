@@ -28,7 +28,6 @@ const Hero = () => {
               Building scalable Modern Websites for the future{" "}
             </h2>
             <div className="flex items-center gap-3">
-              <ButtonPrimary label="Download CV" icon="download" />
               <ButtonOutline
                 href={"#about"}
                 label={"Scroll Down"}
@@ -37,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="hidden lg:block">
-            <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
+            <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-rose-400 via-25% via-rose-400/40 to-65% rounded-[60px] overflow-hidden">
               <img
                 src="/images/hero-banner.png"
                 alt="Hayyan Tahir"

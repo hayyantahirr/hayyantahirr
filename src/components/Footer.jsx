@@ -56,11 +56,13 @@ function Footer() {
               <h2 className="headline-1 mb-3 lg:max-w-[12ch] reveal-up">
                 Let&apos;s work together today!
               </h2>
-              <ButtonPrimary
-                href={"mailto:hayyantahirr@gmail.com"}
-                label="Start project"
-                icon={"chevron_right"}
-              />
+              <div className="mt-10">
+                <ButtonPrimary
+                  href={"mailto:hayyantahirr@gmail.com"}
+                  label="Start project"
+                  icon={"chevron_right"}
+                />
+              </div>
             </div>
             <div className="grid grid-cols-2 gap-4 lg:pl-20">
               <div>

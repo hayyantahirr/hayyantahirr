@@ -117,7 +117,7 @@ function Contact() {
                   autoComplete="name"
                   required
                   placeholder="hayyantahirr"
-                  className="text-field reveal-up"
+                  className="text-field reveal-up "
                 />
               </div>
 

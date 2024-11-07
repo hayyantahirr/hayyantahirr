@@ -31,7 +31,7 @@ const Header = () => {
         </div>
         <a
           href="#contact"
-          className="btn btn-secondary max-md:hidden md:justify-self-end"
+          className="px-7 py-3 text-xs font-medium uppercase tracking-widest text-black bg-white rounded-full shadow-md transition-all duration-300 ease-in-out hover:bg-[#ff6673] hover:text-white hover:shadow-lg hover:translate-y-[-5px] active:translate-y-[-1px] max-md:hidden md:justify-self-end"
         >
           {" "}
           Reach Me Out !
