@@ -7,7 +7,7 @@ function ReviewCard({ content, name, imgSrc, company, classes }) {
     icon: "star",
     style: { fontVariationSettings: '"FILL"1' },
   });
-  console.log(ratings);
+ 
 
   return (
     <>

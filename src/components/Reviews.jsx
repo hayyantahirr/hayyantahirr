@@ -50,7 +50,7 @@ function Reviews() {
     <>
       <section className="section overflow-hidden" id="reviews">
         <div className="container">
-          <h2 className="headline-2 mb-8 ">What our customers say</h2>
+          <h2 className="headline-2 mb-8 reveal-up">What our customers say</h2>
           <div className="flex items-stretch gap-3 w-fit">
             {reviews.map((item, key) => (
               <ReviewCard

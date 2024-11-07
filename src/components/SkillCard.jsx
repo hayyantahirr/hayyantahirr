@@ -5,7 +5,7 @@ function SkillCard({ imgSrc, label, desc, classes }) {
     <>
       <div
         className={
-          "flex items-center gap-3 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-800 transition-colors group" +
+          "flex items-center gap-3 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-800 transition-colors group " +
           classes
         }
       >
