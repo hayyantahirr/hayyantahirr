@@ -1,6 +1,12 @@
 import React from "react";
 import ReviewCard from "./ReviewCard";
 
+// import { ReactLenis } from "lenis/react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 function Reviews() {
   const reviews = [
     {
@@ -46,12 +52,22 @@ function Reviews() {
       company: "Skyline Digital",
     },
   ];
+  useGSAP(() => {
+    gsap.to(".scrub-slide", {
+      x: "-1000",
+      scrollTrigger: {
+        trigger: ".scrub-slide",
+        scrub: true,
+      },
+    });
+  });
+
   return (
     <>
       <section className="section overflow-hidden" id="reviews">
         <div className="container">
           <h2 className="headline-2 mb-8 reveal-up">What our customers say</h2>
-          <div className="flex items-stretch gap-3 w-fit">
+          <div className="scrub-slide flex items-stretch gap-3 w-fit">
             {reviews.map((item, key) => (
               <ReviewCard
                 content={item.content}
