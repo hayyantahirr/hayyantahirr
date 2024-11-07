@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom/client";
-// css links 
+// css links
 import "./index.css";
+import "lenis/dist/lenis.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // componenets
@@ -19,6 +20,5 @@ const router = createBrowserRouter([
   },
 ]);
 createRoot(document.getElementById("root")).render(
-
   <RouterProvider router={router} />
 );

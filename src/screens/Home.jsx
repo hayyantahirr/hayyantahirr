@@ -9,9 +9,11 @@ import Reviews from "../components/Reviews";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
+import { ReactLenis } from "lenis/react";
+
 const Home = () => {
   return (
-    <>
+    <ReactLenis root options={{ autoRaf: true }}>
       <Header />
       <main>
         <Hero />
@@ -22,7 +24,7 @@ const Home = () => {
         <Contact />
       </main>
       <Footer />
-    </>
+    </ReactLenis>
   );
 };
 
