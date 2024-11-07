@@ -28,23 +28,23 @@ function Footer() {
   const socials = [
     {
       label: "GitHub",
-      href: "https://www.github.com/codewithsadee-org",
+      href: "https://www.github.com/hayyantahirr",
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/codewithsadee",
+      href: "https://www.linkedin.com/in/hayyan-tahir-157504321/",
     },
     {
       label: "Twitter X",
-      href: "https://x.com/codewithsadee_",
+      href: "https://x.com/hayyantahirr",
     },
     {
       label: "Instagram",
-      href: "https://www.instagram.com/codewithsadee",
+      href: "https://www.instagram.com/hayyantahirr",
     },
     {
-      label: "CodePen",
-      href: "https://codepen.io/codewithsadee",
+      label: "Facebook",
+      href: "https://www.facebook.com/share/186jxaJnH8/",
     },
   ];
   return (

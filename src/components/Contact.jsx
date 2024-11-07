@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   const socialLinks = [
     {
-      href: "https://www.github.com/codewithsadee-org",
+      href: "https://www.github.com/hayyantahirr",
       icon: (
         <svg
           width="24"
@@ -21,7 +21,7 @@ function Contact() {
       alt: "GitHub",
     },
     {
-      href: "https://www.linkedin.com/in/codewithsadee",
+      href: "https://www.linkedin.com/in/hayyan-tahir-157504321/",
       icon: (
         <svg
           width="24"
@@ -39,7 +39,7 @@ function Contact() {
       alt: "LinkedIn",
     },
     {
-      href: "https://x.com/codewithsadee_",
+      href: "https://x.com/hayyantahirr",
       icon: (
         <svg
           width="24"
@@ -57,7 +57,7 @@ function Contact() {
       alt: "Twitter X",
     },
     {
-      href: "https://www.instagram.com/codewithsadee",
+      href: "https://www.instagram.com/hayyantahirr",
       icon: (
         <svg
           width="25"
