@@ -19,9 +19,9 @@ const Home = () => {
         <Skill />
         <Work />
         <Reviews />
-        <Contact/>
-        <Footer/>
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 };

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function ButtonPrimary({ href, target = "_self", label, icon, classes }) {
   if (href) {
     return (
-      <a href={href} target={target} className={"btn btn-primary" + classes}>
+      <a href={href} target={target} className={"btn btn-primary" }>
         {label}
         {icon ? (
           <span className="material-symbols-rounded" aria-hidden="true">
