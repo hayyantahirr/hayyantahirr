@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 function ProjectCards({ imgSrc, title, tags, projectLink, classes }) {

@@ -1,4 +1,4 @@
-import ProjectCards from "./ProjectCards_Temp.jsx";
+import ProjectCards from "./ProjectCards.jsx";
 
 function Work() {
   const works = [
