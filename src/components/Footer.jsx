@@ -101,7 +101,12 @@ function Footer() {
 
           <div className="flex items-center justify-between pt-10 mb-8">
             <a href="/" className="logo reveal-up">
-              <img src="/images/logo.svg" alt="logo" width={40} height={40} />
+              <img
+                src="/public/images/ht_white_bold.svg"
+                alt="logo"
+                width={100}
+                height={40}
+              />
             </a>
             <p className="text-zinc-500 text-sm reveal-up">
               &copy; 2024 <span className="text-zinc-200">hayyantahirr</span>
