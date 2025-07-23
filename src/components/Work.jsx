@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCards from "./ProjectCards";
+import ProjectCards from "./ProjectCards.jsx";
 
 function Work() {
   const works = [
