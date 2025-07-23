@@ -102,7 +102,7 @@ function Footer() {
           <div className="flex items-center justify-between pt-10 mb-8">
             <a href="/" className="logo reveal-up">
               <img
-                src="/public/images/ht_white_bold.svg"
+                src="/images/ht_white_bold.svg"
                 alt="logo"
                 width={100}
                 height={40}
