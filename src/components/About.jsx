@@ -17,17 +17,18 @@ function About() {
         <div className="container">
           <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
             <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-              Welcome! I&apos;m Hayyan, a professional web developer with a knack
-              for crafting visually stunning and highly functional websites.
-              Combining creativity and technical expertise. I transform your
-              vision into digital masterpiece that excels in both appearance and
-              performance. # Skill Essential Tools I use Discover the powerful
-              tools and technologies I use to create exceptional,
-              high-performing websites & applications. # Work My portfolio
-              highlights # Review What our customers say # Contact Contact me
-              for collaboration Reach out today to discuss your project needs
-              and start collaborating on something amazing! # Footer Let&apos;s
-              work together today!
+              Welcome! I’m Hayyan Tahir, a passionate and professional web
+              developer currently studying in the Pre-Engineering field at Alpha
+              High School. I specialize in building visually stunning and highly
+              functional websites using modern technologies like React.js,
+              Next.js, Firebase, Tailwind CSS, and DaisyUI. With a strong
+              foundation in JavaScript and a creative eye for design, I
+              transform ideas into digital experiences that are both beautiful
+              and high-performing. I take pride in writing clean, efficient code
+              and crafting responsive, user-friendly interfaces. Whether you're
+              looking to collaborate on a project or need a reliable developer
+              to bring your vision to life, I’m always open to new opportunities
+              and challenges. Let’s build something great together!
             </p>
             <div className="flex flex-wrap items-center gap-4 md:gap-7">
               {aboutItems.map((item, key) => {
@@ -46,11 +47,11 @@ function About() {
                 );
               })}
               <img
-                src="/images/logo.svg"
+                src="/images/ht_white_bold.svg"
                 alt="logo"
-                width={30}
+                width={60}
                 height={30}
-                className="ml-auto md:w-[40px] md:h-[40px]"
+                className="ml-auto md:w-[70px] md:h-[70px]"
               />
             </div>
           </div>
