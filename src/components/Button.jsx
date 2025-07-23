@@ -3,7 +3,12 @@ import PropTypes from "prop-types";
 function ButtonPrimary({ href, target = "_self", label, icon, classes }) {
   if (href) {
     return (
-      <a href={href} target={target} className={"btn btn-primary" }>
+      <a
+        href={href}
+        target={target}
+        className={"btn btn-primary"}
+        download={true}
+      >
         {label}
         {icon ? (
           <span className="material-symbols-rounded" aria-hidden="true">
@@ -35,7 +40,7 @@ ButtonPrimary.propTypes = {
   classes: PropTypes.string,
 };
 
-function ButtonOutline({ href, target = "_self", label, icon,  }) {
+function ButtonOutline({ href, target = "_self", label, icon }) {
   if (href) {
     return (
       <a href={href} target={target} className={"btn btn-outline"}>

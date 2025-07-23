@@ -28,6 +28,11 @@ const Hero = () => {
               Building scalable Modern Websites for the future{" "}
             </h2>
             <div className="flex items-center gap-3">
+              <ButtonPrimary
+                label="Download Resume"
+                icon="download"
+                href={"/public/My Resume.pdf"}
+              />
               <ButtonOutline
                 href={"#about"}
                 label={"Scroll Down"}
