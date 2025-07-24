@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Node.Js ,Next.Js Mongo DB , typeScript**
 
-- 👨‍💻 All of my projects are available at [https://hayyantahirr-vj2g.vercel.app/](https://hayyantahirr-vj2g.vercel.app/)
+- 👨‍💻 All of my projects are available at [https://hayyantahirr.vercel.app/](https://hayyantahirr.vercel.app/)
 
 - 📫 How to reach me **hayyantahirr@gmail.com**
 
