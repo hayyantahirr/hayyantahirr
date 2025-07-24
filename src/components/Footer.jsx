@@ -32,7 +32,7 @@ function Footer() {
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/hayyan-tahir-157504321/",
+      href: "www.linkedin.com/in/hayyantahirr",
     },
     {
       label: "Twitter X",
