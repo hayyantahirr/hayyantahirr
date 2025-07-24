@@ -7,7 +7,7 @@ function ButtonPrimary({ href, target = "_self", label, icon, classes }) {
         href={href}
         target={target}
         className={"btn btn-primary"}
-        download={true}
+        download="Hayyan_Tahir_Resume.pdf"
       >
         {label}
         {icon ? (
