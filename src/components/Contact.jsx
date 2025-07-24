@@ -21,7 +21,7 @@ function Contact() {
       alt: "GitHub",
     },
     {
-      href: "www.linkedin.com/in/hayyantahirr",
+      href: "https://www.linkedin.com/in/hayyantahirr/",
       icon: (
         <svg
           width="24"
