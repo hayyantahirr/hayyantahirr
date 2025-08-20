@@ -3,7 +3,7 @@ import ProjectCards from "./ProjectCards.jsx";
 function Work() {
   const works = [
     {
-      imgSrc: "/public/images/LumenVerse.jpg",
+      imgSrc: "/images/LumenVerse.jpg",
       title: "LumenVerse",
       tags: ["React.Js", "FireBase", "Redux", "Material Ui", "Tailwind CSS"],
       projectLink: "https://lumen-verse.vercel.app/",
