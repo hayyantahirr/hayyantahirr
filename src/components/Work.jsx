@@ -3,12 +3,11 @@ import ProjectCards from "./ProjectCards.jsx";
 function Work() {
   const works = [
     {
-      imgSrc: "/images/React Ecommerce.jpg",
-      title: "Ecommerce App with Redux",
-      tags: ["React.Js", "Node.Js", "MongoDB"],
-      projectLink: "https://react-ecommerce-detail.vercel.app/",
+      imgSrc: "/public/images/LumenVerse.jpg",
+      title: "LumenVerse",
+      tags: ["React.Js", "FireBase", "Redux", "Material Ui", "Tailwind CSS"],
+      projectLink: "https://lumen-verse.vercel.app/",
     },
-
     {
       imgSrc: "/images/MemeVerse.jpg",
       title: " Responsive Meme Generator",
@@ -21,23 +20,25 @@ function Work() {
       tags: ["React.js", "Tailwind CSS", "Lenis"],
       projectLink: "https://hayyantahirr.vercel.app/",
     },
+
+    {
+      imgSrc: "/images/React Ecommerce.jpg",
+      title: "Ecommerce App with Redux",
+      tags: ["React.Js", "Node.Js", "MongoDB"],
+      projectLink: "https://react-ecommerce-detail.vercel.app/",
+    },
     {
       imgSrc: "/images/Quiz App.jpg",
       title: "Forged-Trivia",
       tags: ["React.Js", "Tailwind CSS"],
       projectLink: "https://forged-trivia.vercel.app/",
     },
+
     {
       imgSrc: "/images/Grid Warriors.jpg",
       title: "Grid Warriors",
       tags: ["HTML", "CSS", "JavaScript"],
       projectLink: "https://grid-warriors.vercel.app/",
-    },
-    {
-      imgSrc: "/images/Age Calculator.jpg",
-      title: "Functional Age Calculator",
-      tags: ["HTML", "CSS", "JavaScript"],
-      projectLink: "https://age-calculator-virid-iota.vercel.app/",
     },
   ];
   return (
