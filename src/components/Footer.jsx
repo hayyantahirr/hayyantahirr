@@ -1,4 +1,3 @@
-import React from "react";
 import { ButtonPrimary } from "./Button";
 
 function Footer() {
@@ -109,7 +108,8 @@ function Footer() {
               />
             </a>
             <p className="text-zinc-500 text-sm reveal-up">
-              &copy; {new Date().getFullYear()} <span className="text-zinc-200">hayyantahirr</span>
+              &copy; {new Date().getFullYear()}{" "}
+              <span className="text-zinc-200">hayyantahirr</span>
             </p>
           </div>
         </div>
