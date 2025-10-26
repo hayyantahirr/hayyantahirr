@@ -6,7 +6,7 @@ function Work() {
       imgSrc: "/images/banner6.png",
       title: "zDemy",
       tags: ["NextJs", "MongoDB", "Figma", "Tailwind CSS", "express.js"],
-      projectLink: "https://zdemy-ten.vercel.app/",
+      projectLink: "https://zdemy-xi.vercel.app/",
     },
     {
       imgSrc: "/images/banner.png",
