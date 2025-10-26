@@ -43,6 +43,27 @@ function Skill() {
       label: "TailwindCSS",
       desc: "User Interface",
     },
+
+    {
+      imgSrc: "/images/supabase.svg",
+      label: "Supabase",
+      desc: "Backend Service",
+    },
+    {
+      imgSrc: "/images/github.svg",
+      label: "GitHub",
+      desc: "developer platform",
+    },
+    {
+      imgSrc: "/images/firebase.svg",
+      label: "Firebase",
+      desc: "Backend Service",
+    },
+    {
+      imgSrc: "/images/git.svg",
+      label: "Git",
+      desc: "Version Control",
+    },
   ];
   return (
     <>
@@ -56,7 +77,7 @@ function Skill() {
           <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
             {skillItem.map((item, key) => (
               <SkillCard
-                key={key}
+                key={`${item.label}-${key}`}
                 imgSrc={item.imgSrc}
                 label={item.label}
                 desc={item.desc}
