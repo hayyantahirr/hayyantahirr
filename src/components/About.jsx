@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   const aboutItems = [
     {
-      label: "Project done",
-      number: 20,
+      label: "Project delivered",
+      number: 30,
     },
     {
       label: "Months of experience",
@@ -17,18 +17,16 @@ function About() {
         <div className="container">
           <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
             <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-              Welcome! I’m Hayyan Tahir, a passionate and professional web
-              developer currently studying in the Pre-Engineering field at Alpha
-              High School. I specialize in building visually stunning and highly
-              functional websites using modern technologies like React.js,
-              Next.js, Firebase, Tailwind CSS, and DaisyUI. With a strong
-              foundation in JavaScript and a creative eye for design, I
-              transform ideas into digital experiences that are both beautiful
-              and high-performing. I take pride in writing clean, efficient code
-              and crafting responsive, user-friendly interfaces. Whether you're
-              looking to collaborate on a project or need a reliable developer
-              to bring your vision to life, I’m always open to new opportunities
-              and challenges. Let’s build something great together!
+              Hello! I'm Hayyan Tahir, a driven individual with a strong
+              foundation in modern web development. I'm proficient in key
+              frameworks like React and Next.js, plus JavaScript, with all
+              technical learning coming directly from Expertizo. I'm currently
+              pursuing my O Levels at Alpha High School, focused on rigorous
+              STEM disciplines that greatly sharpen my analytical and technical
+              skills. My blend of development expertise and academic focus makes
+              me a valuable and well-rounded contributor. I'm eager to bring my
+              enthusiasm and skills to your team. Let's build something great
+              together—add me to your roster!
             </p>
             <div className="flex flex-wrap items-center gap-4 md:gap-7">
               {aboutItems.map((item, key) => {
