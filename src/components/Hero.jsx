@@ -32,7 +32,7 @@ const Hero = () => {
               <ButtonPrimary
                 label="Download Resume"
                 icon="download"
-                href={"/My_Resume.pdf"}
+                href={"/hayyantahirr.pdf"}
               />
               <ButtonOutline
                 href={"#about"}
