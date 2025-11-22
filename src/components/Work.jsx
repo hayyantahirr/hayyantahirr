@@ -3,6 +3,12 @@ import ProjectCards from "./ProjectCards.jsx";
 function Work() {
   const works = [
     {
+      imgSrc: "/images/banner9.png",
+      title: "Cybrox",
+      tags: ["Next.Js", "TailwindCSS"],
+      projectLink: "https://cybrox-eight.vercel.app/",
+    },
+    {
       imgSrc: "/images/banner6.png",
       title: "zDemy",
       tags: ["NextJs", "MongoDB", "Figma", "Tailwind CSS", "express.js"],
@@ -44,12 +50,6 @@ function Work() {
       title: "My Portfolio",
       tags: ["React.js", "Tailwind CSS", "Lenis"],
       projectLink: "https://hayyantahirr.vercel.app/",
-    },
-    {
-      imgSrc: "/images/banner7.png",
-      title: "VibeNest",
-      tags: ["HTML", "CSS"],
-      projectLink: "https://vibe-nest-theta.vercel.app/",
     },
     {
       imgSrc: "/images/banner8.png",
