@@ -7,8 +7,8 @@ function About() {
       number: 30,
     },
     {
-      label: "Months of experience",
-      number: 8,
+      label: "Year of experience",
+      number: 1,
     },
   ];
   return (
@@ -17,16 +17,16 @@ function About() {
         <div className="container">
           <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
             <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-              Hello! I'm Hayyan Tahir, a driven individual with a strong
-              foundation in modern web development. I'm proficient in key
-              frameworks like React and Next.js, plus JavaScript, with all
-              technical learning coming directly from Expertizo. I'm currently
-              pursuing my O Levels at Alpha High School, focused on rigorous
-              STEM disciplines that greatly sharpen my analytical and technical
-              skills. My blend of development expertise and academic focus makes
-              me a valuable and well-rounded contributor. I'm eager to bring my
-              enthusiasm and skills to your team. Let's build something great
-              together—add me to your roster!
+              Hi, I’m Hayyan Tahir—a full-stack web developer, AI automation
+              specialist, and A-Level student at Alpha College. trained in
+              modern JavaScript frameworks (React, Next.js) and backend
+              architecture, I build end-to-end web platforms and automated
+              workflows powered by AI integration. My background balances
+              hands-on technical execution—from database management to
+              performance optimization—with the strategic perspective gained
+              from managing digital platforms. I am eager to apply my skill set
+              to ambitious projects that demand performant, scalable digital
+              solutions.
             </p>
             <div className="flex flex-wrap items-center gap-4 md:gap-7">
               {aboutItems.map((item, key) => {
