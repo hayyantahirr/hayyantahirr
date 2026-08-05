@@ -1,4 +1,4 @@
-import React from "react";
+  
 import { ButtonOutline, ButtonPrimary } from "./Button";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="flex items-center gap-3">
               <figure className="img-box w-9 h-9 rounded-lg">
                 <img
-                  src="/images/shaadi pic.jpeg"
+                  src="/images/profile_pic.jpeg"
                   width={40}
                   height={40}
                   alt="Hayyan Tahir Potrait"
