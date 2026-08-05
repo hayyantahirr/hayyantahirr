@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <ReactLenis root options={{ autoRaf: true }}>
       <Header />
-      <main>
+      <main className="overflow-hidden">
         <Hero />
         <About />
         <Skill />

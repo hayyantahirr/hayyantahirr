@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import ReviewCard from "./ReviewCard";
 
 // import { ReactLenis } from "lenis/react";
@@ -8,6 +8,9 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 function Reviews() {
+  const componentRef = useRef(null);
+  const sliderRef = useRef(null);
+
   const reviews = [
     {
       content:
@@ -52,22 +55,40 @@ function Reviews() {
       company: "Skyline Digital",
     },
   ];
-  useGSAP(() => {
-    gsap.to(".scrub-slide", {
-      x: "-1000",
-      scrollTrigger: {
-        trigger: ".scrub-slide",
-        scrub: true,
-      },
-    });
-  });
+
+  useGSAP(
+    () => {
+      if (!sliderRef.current || !componentRef.current) return;
+
+      const getScrollAmount = () => {
+        const sliderWidth = sliderRef.current.scrollWidth;
+        const containerWidth = sliderRef.current.parentElement.clientWidth;
+        return -(sliderWidth - containerWidth);
+      };
+
+      gsap.to(sliderRef.current, {
+        x: getScrollAmount,
+        ease: "none",
+        scrollTrigger: {
+          trigger: componentRef.current,
+          start: "center center",
+          end: () => `+=${Math.abs(getScrollAmount())}`,
+          pin: true,
+          scrub: 1,
+          anticipatePin: 1,
+          invalidateOnRefresh: true,
+        },
+      });
+    },
+    { scope: componentRef }
+  );
 
   return (
     <>
-      <section className="section overflow-hidden" id="reviews">
+      <section className="py-12 lg:py-16 overflow-hidden" id="reviews" ref={componentRef}>
         <div className="container">
-          <h2 className="headline-2 mb-8 reveal-up">What our customers say</h2>
-          <div className="scrub-slide flex items-stretch gap-3 w-fit">
+          <h2 className="headline-2 mb-6 reveal-up">What our customers say</h2>
+          <div className="scrub-slide flex items-stretch gap-3 w-fit" ref={sliderRef}>
             {reviews.map((item, key) => (
               <ReviewCard
                 content={item.content}
