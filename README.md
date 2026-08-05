@@ -1,3 +1,4 @@
+[![Rankistan rank badge](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2FHayyantahirr&style=flat)](https://rankistan.dev/#Hayyantahirr)
 # 💫 About Me:
 
 👋 Hi! I'm Hayyan Tahir — a passionate web developer skilled in React, Next.js, and JavaScript, proudly trained under Expertizo.<br><br>🎓 Currently pursuing my O Levels at Alpha High School, where my focus on STEM disciplines sharpens both my analytical and problem-solving abilities.<br><br>💻 With 8+ months of hands-on experience and 30+ projects delivered, I’ve developed a strong foundation in building responsive, modern, and efficient web applications.<br><br>🚀 I’m eager to bring my creativity, discipline, and technical expertise to meaningful projects. Let’s collaborate and build something extraordinary together!
